@@ -383,7 +383,8 @@ license:      	creative commons CC-BY-NC-SA
 				<pos>0.5 0.5</pos>
 				<horizontalAlignment>left</horizontalAlignment>
 				<size>0.92 0.76</size>
-				<selectedBackgroundMargins>0.015 0.015</selectedBackgroundMargins>
+				<horizontalMargin>0.025</horizontalMargin>
+				<selectedBackgroundMargins>0.025 0.025</selectedBackgroundMargins>
 			</textlist>
 		</view>			
 	</variant>
@@ -397,10 +398,11 @@ license:      	creative commons CC-BY-NC-SA
 		<view name="gamelist">
 			<textlist name="game-textlist">
 				<origin>0 0.5</origin>
-				<pos>0.1 0.5</pos>
+				<pos>0.04 0.5</pos>
 				<horizontalAlignment>left</horizontalAlignment>
-				<size>0.46 0.65</size>
-				<selectedBackgroundMargins>0.05 0.05</selectedBackgroundMargins>
+				<size>0.52 0.76</size>
+				<horizontalMargin>0.025</horizontalMargin>
+				<selectedBackgroundMargins>0.025 0.025</selectedBackgroundMargins>
 			</textlist>
 		</view>			
 	</variant>
