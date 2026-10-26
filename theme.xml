@@ -151,8 +151,8 @@ license:      	creative commons CC-BY-NC-SA
 			<textlist name="system-textlist">
 				<origin>0.5 0.5</origin>
 				<pos>0.5 0.5</pos>
-				<horizontalAlignment>center</horizontalAlignment>
-				<size>0.6875 0.65</size>
+				<horizontalAlignment>left</horizontalAlignment>
+				<size>0.92 0.76</size>
 				<fontPath>${fontPixelOperatorBold}</fontPath>
 				<fontSize>${fontSizeList}</fontSize>
 				<lineSpacing>${textlistLineSpacing}</lineSpacing>
@@ -163,11 +163,12 @@ license:      	creative commons CC-BY-NC-SA
 				<selectedSecondaryColor>${green}</selectedSecondaryColor>
 				<selectedBackgroundColor>${surface2}</selectedBackgroundColor>
 				<selectedSecondaryBackgroundColor>${surface2}</selectedSecondaryBackgroundColor>
-				<selectedBackgroundMargins>0.1 0.1</selectedBackgroundMargins>
-				<selectedBackgroundCornerRadius>0.03</selectedBackgroundCornerRadius>
+				<selectedBackgroundMargins>0.025 0.025</selectedBackgroundMargins>
+				<selectedBackgroundCornerRadius>0.014</selectedBackgroundCornerRadius>
 				<letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
-				<letterCaseCustomCollections>capitalize</letterCaseCustomCollections>
-			</textlist>
+				<letterCaseCustomCollections>none</letterCaseCustomCollections>
+			
+				<horizontalMargin>0.025</horizontalMargin></textlist>
 		</view>
 	</variant>
 
@@ -364,6 +365,8 @@ license:      	creative commons CC-BY-NC-SA
 				<selectedBackgroundColor>${surface2}</selectedBackgroundColor>
 				<selectedSecondaryBackgroundColor>${surface2}</selectedSecondaryBackgroundColor>
 				<selectedBackgroundCornerRadius>0.03</selectedBackgroundCornerRadius>
+				<systemNameSuffix>false</systemNameSuffix>
+				<horizontalAlignment>left</horizontalAlignment>
 			</textlist>
 		</view>			
 	</variant>
@@ -378,9 +381,9 @@ license:      	creative commons CC-BY-NC-SA
 			<textlist name="game-textlist">
 				<origin>0.5 0.5</origin>
 				<pos>0.5 0.5</pos>
-				<horizontalAlignment>center</horizontalAlignment>
-				<size>0.6875 0.65</size>
-				<selectedBackgroundMargins>0.1 0.1</selectedBackgroundMargins>
+				<horizontalAlignment>left</horizontalAlignment>
+				<size>0.92 0.76</size>
+				<selectedBackgroundMargins>0.015 0.015</selectedBackgroundMargins>
 			</textlist>
 		</view>			
 	</variant>
@@ -396,7 +399,7 @@ license:      	creative commons CC-BY-NC-SA
 				<origin>0 0.5</origin>
 				<pos>0.1 0.5</pos>
 				<horizontalAlignment>left</horizontalAlignment>
-				<size>0.4 0.65</size>
+				<size>0.46 0.65</size>
 				<selectedBackgroundMargins>0.05 0.05</selectedBackgroundMargins>
 			</textlist>
 		</view>			
@@ -480,11 +483,11 @@ license:      	creative commons CC-BY-NC-SA
 	-->
 	<fontSize name="medium">
 		<variables>
-			<fontSizeH1>0.05875</fontSizeH1> <!--0.05875-->
-			<fontSizeList>0.0525</fontSizeList>
-			<fontSizeBody>0.045</fontSizeBody> 
-			<fontSizeCaption>0.03625</fontSizeCaption>
-			<textlistLineSpacing>1.36</textlistLineSpacing> <!--1.595-->
+			<fontSizeH1>0.052</fontSizeH1> <!--0.05875-->
+			<fontSizeList>0.044</fontSizeList>
+			<fontSizeBody>0.040</fontSizeBody> 
+			<fontSizeCaption>0.033</fontSizeCaption>
+			<textlistLineSpacing>1.20</textlistLineSpacing> <!--1.595-->
 		</variables>
 	</fontSize>
 	<fontSize name="large">
